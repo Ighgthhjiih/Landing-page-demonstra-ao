@@ -5,124 +5,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Pet Shop Marina</title>
+    <meta name="description"
+        content="Marina Pets - Banho & Tosa em Itanhaém. Cuidado, carinho e atenção para o seu pet.">
+
+    <title>Marina Pets | Banho & Tosa</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <!-- HEADER -->
     <header class="header" id="header">
 
-        <a href="#inicio" class="logo">
-            <span class="logo-icon">P</span>
+        <div class="container nav">
 
-            <span>
-                Pet Shop
-                <strong>Marina</strong>
-            </span>
-        </a>
+            <a href="#inicio" class="logo">
+                <span>MARINA</span>
+                <small>PETS</small>
+            </a>
 
-        <nav class="nav">
-            <a href="#inicio">Início</a>
-            <a href="#sobre">Sobre</a>
-            <a href="#produtos">Produtos</a>
-            <a href="#contato">Contato</a>
-        </nav>
+            <nav class="menu" id="menu">
+                <a href="#inicio">Início</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#contato">Contato</a>
+            </nav>
 
-        <a
-            class="header-whatsapp"
-            href="https://wa.me/5513982250783"
-            target="_blank">
+            <a
+                class="btn btn-small"
+                href="https://wa.me/5513997667836"
+                target="_blank">
+                Agendar
+            </a>
 
-            WhatsApp
-            <i class="bi bi-arrow-up-right"></i>
+            <button class="menu-button" id="menuButton" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
 
-        </a>
-
-        <button class="menu-button" id="menuButton">
-            <i class="bi bi-list"></i>
-        </button>
+        </div>
 
     </header>
-
-
-    <div class="mobile-menu" id="mobileMenu">
-
-        <a href="#inicio">Início</a>
-        <a href="#sobre">Sobre</a>
-        <a href="#produtos">Produtos</a>
-        <a href="#contato">Contato</a>
-
-        <a
-            href="https://wa.me/5513982250783"
-            target="_blank"
-            class="mobile-whatsapp">
-
-            <i class="bi bi-whatsapp"></i>
-            Falar no WhatsApp
-
-        </a>
-
-    </div>
 
 
     <main>
 
         <!-- HERO -->
-
         <section class="hero" id="inicio">
 
-            <div class="hero-content">
+            <div class="container hero-content">
 
-                <div class="hero-text">
+                <div class="hero-text reveal">
 
-                    <span class="tag">
-                        <span></span>
-                        Pet Shop · Itanhaém
-                    </span>
+                    <p class="eyebrow">
+                        BANHO & TOSA · ITANHAÉM
+                    </p>
 
                     <h1>
-                        Cuidado que
-                        <em>seu pet</em>
-                        merece.
+                        Cuidado que seu pet
+                        <em>merece.</em>
                     </h1>
 
-                    <p>
-                        Produtos, carinho e tudo o que seu
-                        melhor amigo precisa em um só lugar.
+                    <p class="hero-description">
+                        Um espaço preparado para cuidar do seu pet
+                        com carinho, atenção e profissionalismo.
                     </p>
 
                     <div class="hero-buttons">
 
-                        <a href="#produtos" class="button button-dark">
-                            Conheça nossos produtos
-                            <i class="bi bi-arrow-down"></i>
+                        <a
+                            href="https://wa.me/5513997667836"
+                            target="_blank"
+                            class="btn">
+                            Agendar pelo WhatsApp
                         </a>
 
-                        <a
-                            href="https://wa.me/5513982250783"
-                            target="_blank"
-                            class="button button-outline">
-
-                            WhatsApp
-                            <i class="bi bi-arrow-up-right"></i>
-
+                        <a href="#servicos" class="btn-link">
+                            Conheça nossos serviços →
                         </a>
 
                     </div>
 
                 </div>
 
-                <div class="hero-image">
+
+                <div class="hero-image reveal">
 
                     <img
                         src="https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=1200&q=85"
@@ -136,40 +112,100 @@
 
 
         <!-- FRASE -->
+        <section class="intro reveal">
 
-        <section class="statement">
+            <div class="container">
 
-            <div class="section-label">
-                <span>01</span>
-                Nossa essência
+                <p>
+                    Seu pet merece ser cuidado com
+                    <strong>carinho, respeito e atenção.</strong>
+                </p>
+
             </div>
 
-            <h2>
-                Mais que uma loja.
-                <span>Um lugar feito para eles.</span>
-            </h2>
+        </section>
+
+
+        <!-- SERVIÇOS -->
+        <section class="section" id="servicos">
+
+            <div class="container">
+
+                <div class="section-header reveal">
+
+                    <div>
+                        <p class="eyebrow">O QUE FAZEMOS</p>
+
+                        <h2>
+                            Serviços para deixar
+                            seu pet ainda mais feliz.
+                        </h2>
+                    </div>
+
+                    <p>
+                        Cuidado em cada detalhe para que seu
+                        pet tenha uma experiência tranquila.
+                    </p>
+
+                </div>
+
+
+                <div class="services">
+
+                    <article class="service reveal">
+
+                        <span>01</span>
+
+                        <h3>Banho</h3>
+
+                        <p>
+                            Higiene e cuidado para deixar
+                            seu pet limpo, cheiroso e confortável.
+                        </p>
+
+                    </article>
+
+
+                    <article class="service reveal">
+
+                        <span>02</span>
+
+                        <h3>Tosa</h3>
+
+                        <p>
+                            Tosa realizada de acordo com as
+                            características e necessidades do seu pet.
+                        </p>
+
+                    </article>
+
+
+                    <article class="service reveal">
+
+                        <span>03</span>
+
+                        <h3>Cuidados</h3>
+
+                        <p>
+                            Atenção especial durante todo o
+                            atendimento, sempre respeitando o animal.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
 
         </section>
 
 
         <!-- SOBRE -->
+        <section class="about" id="sobre">
 
-        <section class="about section" id="sobre">
+            <div class="container about-grid">
 
-            <div class="section-title">
-
-                <span>02</span>
-
-                <h2>
-                    Feito para quem
-                    <em>ama pets.</em>
-                </h2>
-
-            </div>
-
-            <div class="about-content">
-
-                <div class="about-image">
+                <div class="about-image reveal">
 
                     <img
                         src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=85"
@@ -177,326 +213,130 @@
 
                 </div>
 
-                <div class="about-text">
 
-                    <p class="about-big">
-                        Seu pet faz parte da família.
-                        E merece ser tratado assim.
+                <div class="about-text reveal">
+
+                    <p class="eyebrow">
+                        MARINA PETS
+                    </p>
+
+                    <h2>
+                        Mais do que um banho.
+                        Um momento de cuidado.
+                    </h2>
+
+                    <p>
+                        Na Marina Pets, cada pet é tratado com
+                        atenção e carinho. Nosso objetivo é oferecer
+                        um atendimento tranquilo e de qualidade,
+                        sempre pensando no bem-estar do animal.
                     </p>
 
                     <p>
-                        Na Pet Shop Marina você encontra produtos
-                        selecionados para alimentação, higiene,
-                        diversão e cuidados do dia a dia.
+                        Aqui, seu pet recebe o cuidado que merece
+                        em um ambiente preparado para ele.
                     </p>
-
-                    <p>
-                        Nosso objetivo é oferecer variedade,
-                        qualidade e um atendimento próximo,
-                        ajudando você a cuidar ainda melhor
-                        de quem está sempre ao seu lado.
-                    </p>
-
-                    <a href="#contato" class="simple-link">
-                        Conheça nossa loja
-                        <i class="bi bi-arrow-right"></i>
-                    </a>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- PRODUTOS -->
-
-        <section class="products section" id="produtos">
-
-            <div class="section-title">
-
-                <span>03</span>
-
-                <h2>
-                    Tudo para o seu
-                    <em>melhor amigo.</em>
-                </h2>
-
-            </div>
-
-            <div class="product-grid">
-
-                <article class="product-card">
-
-                    <span>01</span>
-
-                    <i class="bi bi-basket2"></i>
-
-                    <h3>Rações</h3>
-
-                    <p>
-                        Alimentação para diferentes
-                        necessidades e fases da vida.
-                    </p>
-
-                </article>
-
-
-                <article class="product-card">
-
-                    <span>02</span>
-
-                    <i class="bi bi-heart"></i>
-
-                    <h3>Petiscos</h3>
-
-                    <p>
-                        Pequenos momentos de felicidade
-                        para recompensar seu pet.
-                    </p>
-
-                </article>
-
-
-                <article class="product-card">
-
-                    <span>03</span>
-
-                    <i class="bi bi-controller"></i>
-
-                    <h3>Brinquedos</h3>
-
-                    <p>
-                        Diversão para manter seu
-                        companheiro ativo e feliz.
-                    </p>
-
-                </article>
-
-
-                <article class="product-card">
-
-                    <span>04</span>
-
-                    <i class="bi bi-stars"></i>
-
-                    <h3>Higiene</h3>
-
-                    <p>
-                        Produtos para deixar seu
-                        pet limpo e confortável.
-                    </p>
-
-                </article>
-
-
-                <article class="product-card">
-
-                    <span>05</span>
-
-                    <i class="bi bi-life-preserver"></i>
-
-                    <h3>Acessórios</h3>
-
-                    <p>
-                        Coleiras, guias, camas
-                        e muito mais.
-                    </p>
-
-                </article>
-
-
-                <article class="product-card dark">
-
-                    <span>06</span>
-
-                    <i class="bi bi-plus-lg"></i>
-
-                    <h3>E muito mais.</h3>
-
-                    <p>
-                        Venha conhecer nossa loja
-                        e descubra todas as opções.
-                    </p>
-
-                </article>
-
-            </div>
-
-        </section>
-
-
-        <!-- FOTO -->
-
-        <section class="big-image">
-
-            <img
-                src="https://images.unsplash.com/photo-1544568100-847a948585b9?auto=format&fit=crop&w=1800&q=85"
-                alt="Pet">
-
-            <div class="big-image-text">
-                <span>Carinho</span>
-                <strong>em cada detalhe.</strong>
-            </div>
-
-        </section>
-
-
-        <!-- DIFERENCIAIS -->
-
-        <section class="difference section">
-
-            <div class="section-title">
-
-                <span>04</span>
-
-                <h2>
-                    Por que escolher
-                    <em>a Marina?</em>
-                </h2>
-
-            </div>
-
-            <div class="difference-grid">
-
-                <div class="rating">
-
-                    <strong>4.7</strong>
-
-                    <div>
-                        <div class="stars">
-                            ★ ★ ★ ★ ★
-                        </div>
-
-                        <p>
-                            Avaliação dos clientes
-                        </p>
-                    </div>
-
-                </div>
-
-
-                <div class="difference-list">
-
-                    <div class="difference-item">
-
-                        <span>01</span>
-
-                        <div>
-                            <h3>Atendimento próximo</h3>
-
-                            <p>
-                                Um atendimento pensado
-                                para você e seu pet.
-                            </p>
-                        </div>
-
-                    </div>
-
-
-                    <div class="difference-item">
-
-                        <span>02</span>
-
-                        <div>
-                            <h3>Produtos de qualidade</h3>
-
-                            <p>
-                                Opções para alimentação,
-                                higiene, diversão e cuidados.
-                            </p>
-                        </div>
-
-                    </div>
-
-
-                    <div class="difference-item">
-
-                        <span>03</span>
-
-                        <div>
-                            <h3>Praticidade</h3>
-
-                            <p>
-                                Tudo em um só lugar,
-                                perto de você.
-                            </p>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- CONTATO -->
-
-        <section class="contact section" id="contato">
-
-            <div class="section-title">
-
-                <span>05</span>
-
-                <h2>
-                    Venha
-                    <em>nos visitar.</em>
-                </h2>
-
-            </div>
-
-            <div class="contact-grid">
-
-                <div class="contact-info">
-
-                    <div class="contact-block">
-
-                        <span>Endereço</span>
-
-                        <p>
-                            Av. Gonçalo Monteiro, 595 — Loja 02<br>
-                            Cibratel II · Itanhaém — SP
-                        </p>
-
-                    </div>
-
-
-                    <div class="contact-block">
-
-                        <span>WhatsApp</span>
-
-                        <a
-                            href="https://wa.me/5513982250783"
-                            target="_blank">
-
-                            (13) 98225-0783
-                            <i class="bi bi-arrow-up-right"></i>
-
-                        </a>
-
-                    </div>
-
 
                     <a
-                        href="https://www.google.com/maps/dir/?api=1&destination=Av.+Gonçalo+Monteiro,+595,+Cibratel+II,+Itanhaém,+SP"
+                        href="https://wa.me/5513997667836"
                         target="_blank"
-                        class="map-button">
+                        class="btn">
+                        Falar com a Marina Pets
+                    </a>
 
-                        Abrir no Google Maps
+                </div>
 
-                        <i class="bi bi-arrow-up-right"></i>
+            </div>
 
+        </section>
+
+
+        <!-- INFORMAÇÕES -->
+        <section class="info">
+
+            <div class="container info-grid">
+
+                <div class="info-item reveal">
+
+                    <span class="info-number">01</span>
+
+                    <h3>Atendimento</h3>
+
+                    <p>
+                        Segunda a sábado<br>
+                        09:00 às 17:30
+                    </p>
+
+                </div>
+
+
+                <div class="info-item reveal">
+
+                    <span class="info-number">02</span>
+
+                    <h3>Localização</h3>
+
+                    <p>
+                        R. Ver. João de Almeida Batista, 10<br>
+                        Savoy · Itanhaém - SP
+                    </p>
+
+                </div>
+
+
+                <div class="info-item reveal">
+
+                    <span class="info-number">03</span>
+
+                    <h3>Contato</h3>
+
+                    <p>
+                        (13) 99766-7836
+                    </p>
+
+                    <a
+                        href="https://wa.me/5513997667836"
+                        target="_blank">
+                        Chamar no WhatsApp →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- MAPA -->
+        <section class="map-section" id="contato">
+
+            <div class="container">
+
+                <div class="section-header reveal">
+
+                    <div>
+                        <p class="eyebrow">ONDE ESTAMOS</p>
+
+                        <h2>
+                            Venha conhecer
+                            a Marina Pets.
+                        </h2>
+                    </div>
+
+                    <a
+                        href="https://www.google.com/maps/dir/?api=1&destination=R.+Ver.+Jo%C3%A3o+de+Almeida+Batista,+10,+Itanha%C3%A9m,+SP"
+                        target="_blank"
+                        class="btn">
+                        Como chegar
                     </a>
 
                 </div>
 
 
-                <div class="map">
+                <div class="map reveal">
 
                     <iframe
-                        src="https://www.google.com/maps?q=Av.+Gonçalo+Monteiro,+595,+Cibratel+II,+Itanhaém,+SP&output=embed"
+                        src="https://www.google.com/maps?q=Marina+Pets+-+Banho+%26+Tosa,+R.+Ver.+Jo%C3%A3o+de+Almeida+Batista,+10,+Itanha%C3%A9m+-+SP&output=embed"
                         loading="lazy"
                         allowfullscreen>
                     </iframe>
@@ -509,34 +349,24 @@
 
 
         <!-- CTA -->
-
         <section class="cta">
 
-            <div class="cta-content">
+            <div class="container reveal">
 
-                <span class="tag">
-                    <span></span>
-                    Pet Shop Marina
-                </span>
-
-                <h2>
-                    Seu pet merece
-                    <em>o melhor.</em>
-                </h2>
-
-                <p>
-                    Fale com a gente pelo WhatsApp
-                    ou venha conhecer nossa loja.
+                <p class="eyebrow">
+                    MARINA PETS
                 </p>
 
+                <h2>
+                    Seu pet pronto para
+                    um novo momento.
+                </h2>
+
                 <a
-                    href="https://wa.me/5513982250783?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais."
+                    href="https://wa.me/5513997667836"
                     target="_blank"
-                    class="button button-green">
-
-                    Falar no WhatsApp
-                    <i class="bi bi-whatsapp"></i>
-
+                    class="btn btn-light">
+                    Agendar pelo WhatsApp
                 </a>
 
             </div>
@@ -547,84 +377,38 @@
 
 
     <!-- FOOTER -->
-
     <footer>
 
-        <div class="footer-main">
+        <div class="container footer-content">
 
-            <div class="footer-logo">
-
-                <div class="logo">
-                    <span class="logo-icon">P</span>
-
-                    <span>
-                        Pet Shop
-                        <strong>Marina</strong>
-                    </span>
-                </div>
-
-                <p>
-                    Amor e cuidado para quem
-                    faz parte da sua família.
-                </p>
-
+            <div class="logo">
+                <span>MARINA</span>
+                <small>PETS</small>
             </div>
 
+            <p>
+                © 2026 Marina Pets - Banho & Tosa
+            </p>
 
-            <div class="footer-column">
-
-                <span>MENU</span>
-
-                <a href="#inicio">Início</a>
-                <a href="#sobre">Sobre</a>
-                <a href="#produtos">Produtos</a>
-                <a href="#contato">Contato</a>
-
-            </div>
-
-
-            <div class="footer-column">
-
-                <span>CONTATO</span>
-
-                <a
-                    href="https://wa.me/5513982250783"
-                    target="_blank">
-
-                    WhatsApp
-
-                </a>
-
-                <a
-                    href="https://www.google.com/maps/dir/?api=1&destination=Av.+Gonçalo+Monteiro,+595,+Cibratel+II,+Itanhaém,+SP"
-                    target="_blank">
-
-                    Google Maps
-
-                </a>
-
-            </div>
-
-        </div>
-
-
-        <div class="footer-bottom">
-
-            <span>© 2026 Pet Shop Marina</span>
-
-            <span>Cibratel II · Itanhaém · SP</span>
+            <a
+                href="https://www.google.com/maps/dir/?api=1&destination=R.+Ver.+Jo%C3%A3o+de+Almeida+Batista,+10,+Itanha%C3%A9m,+SP"
+                target="_blank">
+                Itanhaém - SP
+            </a>
 
         </div>
 
     </footer>
 
 
+    <!-- WHATSAPP -->
     <a
-        href="https://wa.me/5513982250783"
+        href="https://wa.me/5513997667836"
         target="_blank"
-        class="floating-whatsapp">
+        class="whatsapp"
+        aria-label="WhatsApp">
 
-        <i class="bi bi-whatsapp"></i>
+        <span>WhatsApp</span>
 
     </a>
 
