@@ -5,17 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description"
-        content="Pet Shop Marina - Tudo para cuidar do seu pet com carinho, qualidade e confiança em Itanhaém.">
-
-    <title>Pet Shop Marina — Amor em cada cuidado</title>
+    <title>Pet Shop Marina</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
 
     <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
@@ -25,59 +20,57 @@
 
 <body>
 
-    <!-- CURSOR -->
-    <div class="cursor"></div>
-
-    <!-- HEADER -->
     <header class="header" id="header">
 
         <a href="#inicio" class="logo">
-            <span class="logo-symbol">P</span>
-            <span>Pet Shop<br><strong>Marina</strong></span>
+            <span class="logo-icon">P</span>
+
+            <span>
+                Pet Shop
+                <strong>Marina</strong>
+            </span>
         </a>
 
         <nav class="nav">
             <a href="#inicio">Início</a>
             <a href="#sobre">Sobre</a>
             <a href="#produtos">Produtos</a>
-            <a href="#experiencia">Experiência</a>
             <a href="#contato">Contato</a>
         </nav>
 
-        <a href="https://wa.me/5513982250783?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20Pet%20Shop%20Marina."
-            target="_blank"
-            class="header-button">
-            Falar no WhatsApp
+        <a
+            class="header-whatsapp"
+            href="https://wa.me/5513982250783"
+            target="_blank">
+
+            WhatsApp
             <i class="bi bi-arrow-up-right"></i>
+
         </a>
 
         <button class="menu-button" id="menuButton">
-            <span></span>
-            <span></span>
+            <i class="bi bi-list"></i>
         </button>
 
     </header>
 
 
-    <!-- MENU MOBILE -->
     <div class="mobile-menu" id="mobileMenu">
 
-        <nav>
-            <a href="#inicio">01 <span>Início</span></a>
-            <a href="#sobre">02 <span>Sobre</span></a>
-            <a href="#produtos">03 <span>Produtos</span></a>
-            <a href="#experiencia">04 <span>Experiência</span></a>
-            <a href="#contato">05 <span>Contato</span></a>
-        </nav>
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#contato">Contato</a>
 
-        <div class="mobile-bottom">
-            <span>Cibratel II · Itanhaém</span>
+        <a
+            href="https://wa.me/5513982250783"
+            target="_blank"
+            class="mobile-whatsapp">
 
-            <a href="https://wa.me/5513982250783" target="_blank">
-                WhatsApp
-                <i class="bi bi-arrow-up-right"></i>
-            </a>
-        </div>
+            <i class="bi bi-whatsapp"></i>
+            Falar no WhatsApp
+
+        </a>
 
     </div>
 
@@ -85,57 +78,56 @@
     <main>
 
         <!-- HERO -->
+
         <section class="hero" id="inicio">
-
-            <div class="hero-background"></div>
-
-            <div class="hero-overlay"></div>
 
             <div class="hero-content">
 
-                <div class="hero-top reveal">
-                    <span class="eyebrow">
-                        <span class="dot"></span>
+                <div class="hero-text">
+
+                    <span class="tag">
+                        <span></span>
                         Pet Shop · Itanhaém
                     </span>
 
-                    <span class="hero-number">01 / 05</span>
-                </div>
-
-                <div class="hero-title">
-
-                    <h1 class="reveal">
-                        Amor que
-                        <span>cuida.</span>
+                    <h1>
+                        Cuidado que
+                        <em>seu pet</em>
+                        merece.
                     </h1>
 
-                    <div class="hero-description reveal">
-                        <p>
-                            Tudo o que seu pet precisa em um só lugar.
-                            Produtos, carinho e cuidado para quem faz
-                            parte da sua família.
-                        </p>
+                    <p>
+                        Produtos, carinho e tudo o que seu
+                        melhor amigo precisa em um só lugar.
+                    </p>
 
-                        <a href="#produtos" class="round-button">
-                            <span>Conheça<br>nossos produtos</span>
+                    <div class="hero-buttons">
+
+                        <a href="#produtos" class="button button-dark">
+                            Conheça nossos produtos
                             <i class="bi bi-arrow-down"></i>
                         </a>
+
+                        <a
+                            href="https://wa.me/5513982250783"
+                            target="_blank"
+                            class="button button-outline">
+
+                            WhatsApp
+                            <i class="bi bi-arrow-up-right"></i>
+
+                        </a>
+
                     </div>
 
                 </div>
 
-            </div>
+                <div class="hero-image">
 
-            <div class="hero-bottom">
+                    <img
+                        src="https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=1200&q=85"
+                        alt="Cachorro">
 
-                <div class="scroll-indicator">
-                    <span>SCROLL PARA EXPLORAR</span>
-                    <div class="scroll-line"></div>
-                </div>
-
-                <div class="hero-location">
-                    <i class="bi bi-geo-alt"></i>
-                    Cibratel II · Itanhaém · SP
                 </div>
 
             </div>
@@ -143,64 +135,71 @@
         </section>
 
 
-        <!-- MARQUEE -->
-        <section class="marquee">
+        <!-- FRASE -->
 
-            <div class="marquee-track">
+        <section class="statement">
 
-                <span>SEU PET MERECE O MELHOR</span>
-                <i class="bi bi-star-fill"></i>
-
-                <span>CARINHO EM CADA DETALHE</span>
-                <i class="bi bi-star-fill"></i>
-
-                <span>QUALIDADE PARA QUEM VOCÊ AMA</span>
-                <i class="bi bi-star-fill"></i>
-
-                <span>SEU PET MERECE O MELHOR</span>
-                <i class="bi bi-star-fill"></i>
-
+            <div class="section-label">
+                <span>01</span>
+                Nossa essência
             </div>
+
+            <h2>
+                Mais que uma loja.
+                <span>Um lugar feito para eles.</span>
+            </h2>
 
         </section>
 
 
         <!-- SOBRE -->
+
         <section class="about section" id="sobre">
 
-            <div class="section-label reveal">
+            <div class="section-title">
+
                 <span>02</span>
-                <span>Sobre nós</span>
+
+                <h2>
+                    Feito para quem
+                    <em>ama pets.</em>
+                </h2>
+
             </div>
 
-            <div class="about-grid">
+            <div class="about-content">
 
-                <div class="about-title reveal">
+                <div class="about-image">
 
-                    <h2>
-                        Mais que uma loja.
-                        <span>Um lugar feito para eles.</span>
-                    </h2>
+                    <img
+                        src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=85"
+                        alt="Cachorros">
 
                 </div>
 
-                <div class="about-text reveal">
+                <div class="about-text">
 
-                    <p class="large-text">
-                        Na Pet Shop Marina, acreditamos que cuidar de um
-                        animal é cuidar de alguém da família.
+                    <p class="about-big">
+                        Seu pet faz parte da família.
+                        E merece ser tratado assim.
                     </p>
 
                     <p>
-                        Por isso, buscamos oferecer produtos de qualidade,
-                        variedade e um atendimento próximo para tornar
-                        cada visita uma experiência melhor para você
-                        e para o seu melhor amigo.
+                        Na Pet Shop Marina você encontra produtos
+                        selecionados para alimentação, higiene,
+                        diversão e cuidados do dia a dia.
                     </p>
 
-                    <a href="#contato" class="text-link">
+                    <p>
+                        Nosso objetivo é oferecer variedade,
+                        qualidade e um atendimento próximo,
+                        ajudando você a cuidar ainda melhor
+                        de quem está sempre ao seu lado.
+                    </p>
+
+                    <a href="#contato" class="simple-link">
                         Conheça nossa loja
-                        <i class="bi bi-arrow-up-right"></i>
+                        <i class="bi bi-arrow-right"></i>
                     </a>
 
                 </div>
@@ -210,178 +209,115 @@
         </section>
 
 
-        <!-- FOTO GRANDE -->
-        <section class="image-section">
-
-            <div class="image-container reveal-scale">
-
-                <img
-                    src="https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=1800&q=85"
-                    alt="Cachorro">
-
-                <div class="image-caption">
-                    <span>Para eles.</span>
-                    <span>Por você.</span>
-                </div>
-
-            </div>
-
-        </section>
-
-
         <!-- PRODUTOS -->
+
         <section class="products section" id="produtos">
 
-            <div class="section-label reveal">
+            <div class="section-title">
+
                 <span>03</span>
-                <span>O que você encontra</span>
-            </div>
 
-            <div class="products-header">
-
-                <h2 class="reveal">
+                <h2>
                     Tudo para o seu
-                    <span>melhor amigo.</span>
+                    <em>melhor amigo.</em>
                 </h2>
 
-                <p class="reveal">
-                    Encontre produtos selecionados para deixar
-                    seu pet mais saudável, feliz e confortável.
-                </p>
-
             </div>
-
 
             <div class="product-grid">
 
-                <article class="product-card reveal">
+                <article class="product-card">
 
-                    <div class="product-number">01</div>
+                    <span>01</span>
 
-                    <div class="product-icon">
-                        <i class="bi bi-basket2"></i>
-                    </div>
+                    <i class="bi bi-basket2"></i>
 
                     <h3>Rações</h3>
 
                     <p>
-                        Alimentação para diferentes fases,
-                        portes e necessidades.
+                        Alimentação para diferentes
+                        necessidades e fases da vida.
                     </p>
-
-                    <span class="card-arrow">
-                        <i class="bi bi-arrow-up-right"></i>
-                    </span>
 
                 </article>
 
 
-                <article class="product-card reveal">
+                <article class="product-card">
 
-                    <div class="product-number">02</div>
+                    <span>02</span>
 
-                    <div class="product-icon">
-                        <i class="bi bi-heart"></i>
-                    </div>
+                    <i class="bi bi-heart"></i>
 
                     <h3>Petiscos</h3>
 
                     <p>
                         Pequenos momentos de felicidade
-                        para recompensar quem você ama.
+                        para recompensar seu pet.
                     </p>
-
-                    <span class="card-arrow">
-                        <i class="bi bi-arrow-up-right"></i>
-                    </span>
 
                 </article>
 
 
-                <article class="product-card reveal">
+                <article class="product-card">
 
-                    <div class="product-number">03</div>
+                    <span>03</span>
 
-                    <div class="product-icon">
-                        <i class="bi bi-controller"></i>
-                    </div>
+                    <i class="bi bi-controller"></i>
 
                     <h3>Brinquedos</h3>
 
                     <p>
-                        Diversão e estímulos para manter
-                        seu pet ativo e feliz.
+                        Diversão para manter seu
+                        companheiro ativo e feliz.
                     </p>
-
-                    <span class="card-arrow">
-                        <i class="bi bi-arrow-up-right"></i>
-                    </span>
 
                 </article>
 
 
-                <article class="product-card reveal">
+                <article class="product-card">
 
-                    <div class="product-number">04</div>
+                    <span>04</span>
 
-                    <div class="product-icon">
-                        <i class="bi bi-stars"></i>
-                    </div>
+                    <i class="bi bi-stars"></i>
 
                     <h3>Higiene</h3>
 
                     <p>
-                        Produtos para deixar seu companheiro
-                        sempre limpo e confortável.
+                        Produtos para deixar seu
+                        pet limpo e confortável.
                     </p>
-
-                    <span class="card-arrow">
-                        <i class="bi bi-arrow-up-right"></i>
-                    </span>
 
                 </article>
 
 
-                <article class="product-card reveal">
+                <article class="product-card">
 
-                    <div class="product-number">05</div>
+                    <span>05</span>
 
-                    <div class="product-icon">
-                        <i class="bi bi-life-preserver"></i>
-                    </div>
+                    <i class="bi bi-life-preserver"></i>
 
                     <h3>Acessórios</h3>
 
                     <p>
-                        Coleiras, guias, camas e tudo
-                        para o dia a dia.
+                        Coleiras, guias, camas
+                        e muito mais.
                     </p>
-
-                    <span class="card-arrow">
-                        <i class="bi bi-arrow-up-right"></i>
-                    </span>
 
                 </article>
 
 
-                <article class="product-card product-card-dark reveal">
+                <article class="product-card dark">
 
-                    <div class="product-number">06</div>
+                    <span>06</span>
 
-                    <div class="product-icon">
-                        <i class="bi bi-plus-lg"></i>
-                    </div>
+                    <i class="bi bi-plus-lg"></i>
 
                     <h3>E muito mais.</h3>
 
                     <p>
-                        Passe na loja e descubra tudo
-                        que preparamos para seu pet.
+                        Venha conhecer nossa loja
+                        e descubra todas as opções.
                     </p>
-
-                    <span class="card-arrow">
-                        <i class="bi bi-arrow-up-right"></i>
-                    </span>
 
                 </article>
 
@@ -390,156 +326,104 @@
         </section>
 
 
-        <!-- EXPERIÊNCIA -->
-        <section class="experience section" id="experiencia">
+        <!-- FOTO -->
 
-            <div class="section-label reveal">
-                <span>04</span>
-                <span>Por que escolher a Marina</span>
-            </div>
+        <section class="big-image">
 
-            <div class="experience-grid">
+            <img
+                src="https://images.unsplash.com/photo-1544568100-847a948585b9?auto=format&fit=crop&w=1800&q=85"
+                alt="Pet">
 
-                <div class="experience-title reveal">
-
-                    <h2>
-                        Cuidar bem
-                        <span>faz toda diferença.</span>
-                    </h2>
-
-                </div>
-
-
-                <div class="experience-content">
-
-                    <div class="stat reveal">
-
-                        <strong>4.7</strong>
-
-                        <div>
-                            <div class="stars">
-                                ★ ★ ★ ★ ★
-                            </div>
-
-                            <p>
-                                Avaliação no Google
-                            </p>
-                        </div>
-
-                    </div>
-
-
-                    <div class="stat reveal">
-
-                        <strong>170+</strong>
-
-                        <div>
-                            <p>
-                                avaliações de clientes
-                            </p>
-                        </div>
-
-                    </div>
-
-
-                    <div class="experience-list">
-
-                        <div class="experience-item reveal">
-
-                            <span>01</span>
-
-                            <div>
-                                <h3>Atendimento próximo</h3>
-
-                                <p>
-                                    Aqui você encontra pessoas que
-                                    realmente gostam de animais.
-                                </p>
-                            </div>
-
-                        </div>
-
-
-                        <div class="experience-item reveal">
-
-                            <span>02</span>
-
-                            <div>
-                                <h3>Variedade</h3>
-
-                                <p>
-                                    Produtos para alimentação,
-                                    diversão, higiene e cuidados.
-                                </p>
-                            </div>
-
-                        </div>
-
-
-                        <div class="experience-item reveal">
-
-                            <span>03</span>
-
-                            <div>
-                                <h3>Praticidade</h3>
-
-                                <p>
-                                    Uma loja completa perto de você,
-                                    em Cibratel II.
-                                </p>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
+            <div class="big-image-text">
+                <span>Carinho</span>
+                <strong>em cada detalhe.</strong>
             </div>
 
         </section>
 
 
-        <!-- GALERIA -->
-        <section class="gallery">
+        <!-- DIFERENCIAIS -->
 
-            <div class="gallery-title reveal">
+        <section class="difference section">
 
-                <span>Uma vida melhor</span>
+            <div class="section-title">
+
+                <span>04</span>
 
                 <h2>
-                    Começa nos
-                    <em>pequenos cuidados.</em>
+                    Por que escolher
+                    <em>a Marina?</em>
                 </h2>
 
             </div>
 
+            <div class="difference-grid">
 
-            <div class="gallery-grid">
+                <div class="rating">
 
-                <div class="gallery-image image-one reveal-scale">
+                    <strong>4.7</strong>
 
-                    <img
-                        src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=1000&q=85"
-                        alt="Cachorro">
+                    <div>
+                        <div class="stars">
+                            ★ ★ ★ ★ ★
+                        </div>
 
-                </div>
-
-
-                <div class="gallery-image image-two reveal-scale">
-
-                    <img
-                        src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?auto=format&fit=crop&w=1000&q=85"
-                        alt="Gato">
+                        <p>
+                            Avaliação dos clientes
+                        </p>
+                    </div>
 
                 </div>
 
 
-                <div class="gallery-image image-three reveal-scale">
+                <div class="difference-list">
 
-                    <img
-                        src="https://images.unsplash.com/photo-1558788353-f76d92427f16?auto=format&fit=crop&w=1200&q=85"
-                        alt="Cachorro">
+                    <div class="difference-item">
+
+                        <span>01</span>
+
+                        <div>
+                            <h3>Atendimento próximo</h3>
+
+                            <p>
+                                Um atendimento pensado
+                                para você e seu pet.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="difference-item">
+
+                        <span>02</span>
+
+                        <div>
+                            <h3>Produtos de qualidade</h3>
+
+                            <p>
+                                Opções para alimentação,
+                                higiene, diversão e cuidados.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="difference-item">
+
+                        <span>03</span>
+
+                        <div>
+                            <h3>Praticidade</h3>
+
+                            <p>
+                                Tudo em um só lugar,
+                                perto de você.
+                            </p>
+                        </div>
+
+                    </div>
 
                 </div>
 
@@ -548,91 +432,74 @@
         </section>
 
 
-        <!-- LOCALIZAÇÃO -->
+        <!-- CONTATO -->
+
         <section class="contact section" id="contato">
 
-            <div class="section-label reveal">
+            <div class="section-title">
+
                 <span>05</span>
-                <span>Onde estamos</span>
+
+                <h2>
+                    Venha
+                    <em>nos visitar.</em>
+                </h2>
+
             </div>
 
             <div class="contact-grid">
 
-                <div class="contact-info reveal">
+                <div class="contact-info">
 
-                    <h2>
-                        Venha nos
-                        <span>visitar.</span>
-                    </h2>
+                    <div class="contact-block">
 
-                    <div class="address">
+                        <span>Endereço</span>
 
-                        <div class="address-icon">
-                            <i class="bi bi-geo-alt"></i>
-                        </div>
-
-                        <div>
-                            <span>Endereço</span>
-
-                            <p>
-                                Av. Gonçalo Monteiro, 595 — Loja 02<br>
-                                Cibratel II · Itanhaém — SP
-                            </p>
-                        </div>
+                        <p>
+                            Av. Gonçalo Monteiro, 595 — Loja 02<br>
+                            Cibratel II · Itanhaém — SP
+                        </p>
 
                     </div>
 
 
-                    <div class="contact-links">
+                    <div class="contact-block">
+
+                        <span>WhatsApp</span>
 
                         <a
                             href="https://wa.me/5513982250783"
                             target="_blank">
 
-                            <i class="bi bi-whatsapp"></i>
-
-                            <div>
-                                <span>WhatsApp</span>
-                                <strong>(13) 98225-0783</strong>
-                            </div>
-
-                            <i class="bi bi-arrow-up-right"></i>
-
-                        </a>
-
-
-                        <a
-                            href="https://www.google.com/maps/dir/?api=1&destination=Av.+Gonçalo+Monteiro,+595,+Cibratel+II,+Itanhaém,+SP"
-                            target="_blank">
-
-                            <i class="bi bi-map"></i>
-
-                            <div>
-                                <span>Como chegar</span>
-                                <strong>Abrir no Google Maps</strong>
-                            </div>
-
+                            (13) 98225-0783
                             <i class="bi bi-arrow-up-right"></i>
 
                         </a>
 
                     </div>
 
+
+                    <a
+                        href="https://www.google.com/maps/dir/?api=1&destination=Av.+Gonçalo+Monteiro,+595,+Cibratel+II,+Itanhaém,+SP"
+                        target="_blank"
+                        class="map-button">
+
+                        Abrir no Google Maps
+
+                        <i class="bi bi-arrow-up-right"></i>
+
+                    </a>
+
                 </div>
 
 
-                <div class="map reveal-scale">
+                <div class="map">
 
                     <iframe
                         src="https://www.google.com/maps?q=Av.+Gonçalo+Monteiro,+595,+Cibratel+II,+Itanhaém,+SP&output=embed"
                         loading="lazy"
                         allowfullscreen>
                     </iframe>
-
-                    <div class="map-label">
-                        <i class="bi bi-geo-alt-fill"></i>
-                        Pet Shop Marina
-                    </div>
 
                 </div>
 
@@ -642,35 +509,33 @@
 
 
         <!-- CTA -->
+
         <section class="cta">
 
-            <div class="cta-background"></div>
+            <div class="cta-content">
 
-            <div class="cta-content reveal">
-
-                <span class="eyebrow">
-                    <span class="dot"></span>
+                <span class="tag">
+                    <span></span>
                     Pet Shop Marina
                 </span>
 
                 <h2>
                     Seu pet merece
-                    <span>o melhor.</span>
+                    <em>o melhor.</em>
                 </h2>
 
                 <p>
-                    Passe na nossa loja ou fale com a gente
-                    pelo WhatsApp.
+                    Fale com a gente pelo WhatsApp
+                    ou venha conhecer nossa loja.
                 </p>
 
                 <a
                     href="https://wa.me/5513982250783?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais."
                     target="_blank"
-                    class="cta-button">
+                    class="button button-green">
 
-                    Falar com a Marina
-
-                    <i class="bi bi-arrow-up-right"></i>
+                    Falar no WhatsApp
+                    <i class="bi bi-whatsapp"></i>
 
                 </a>
 
@@ -682,23 +547,25 @@
 
 
     <!-- FOOTER -->
+
     <footer>
 
-        <div class="footer-top">
+        <div class="footer-main">
 
-            <div class="footer-brand">
+            <div class="footer-logo">
 
                 <div class="logo">
-                    <span class="logo-symbol">P</span>
+                    <span class="logo-icon">P</span>
 
                     <span>
-                        Pet Shop<br>
+                        Pet Shop
                         <strong>Marina</strong>
                     </span>
                 </div>
 
                 <p>
-                    Amor, cuidado e tudo o que seu pet precisa.
+                    Amor e cuidado para quem
+                    faz parte da sua família.
                 </p>
 
             </div>
@@ -720,26 +587,21 @@
 
                 <span>CONTATO</span>
 
-                <a href="https://wa.me/5513982250783" target="_blank">
-                    WhatsApp
-                </a>
-
-                <a href="https://www.google.com/maps/dir/?api=1&destination=Av.+Gonçalo+Monteiro,+595,+Cibratel+II,+Itanhaém,+SP"
+                <a
+                    href="https://wa.me/5513982250783"
                     target="_blank">
-                    Localização
+
+                    WhatsApp
+
                 </a>
 
-            </div>
+                <a
+                    href="https://www.google.com/maps/dir/?api=1&destination=Av.+Gonçalo+Monteiro,+595,+Cibratel+II,+Itanhaém,+SP"
+                    target="_blank">
 
+                    Google Maps
 
-            <div class="footer-column">
-
-                <span>LOCAL</span>
-
-                <p>
-                    Cibratel II<br>
-                    Itanhaém · SP
-                </p>
+                </a>
 
             </div>
 
@@ -748,28 +610,21 @@
 
         <div class="footer-bottom">
 
-            <span>
-                © 2026 Pet Shop Marina
-            </span>
+            <span>© 2026 Pet Shop Marina</span>
 
-            <span>
-                Feito com carinho para quem ama pets.
-            </span>
+            <span>Cibratel II · Itanhaém · SP</span>
 
         </div>
 
     </footer>
 
 
-    <!-- WHATSAPP FLUTUANTE -->
     <a
-        href="https://wa.me/5513982250783?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20Pet%20Shop%20Marina."
+        href="https://wa.me/5513982250783"
         target="_blank"
-        class="whatsapp">
+        class="floating-whatsapp">
 
         <i class="bi bi-whatsapp"></i>
-
-        <span>WhatsApp</span>
 
     </a>
 
